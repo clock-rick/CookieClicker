@@ -28,8 +28,4 @@ class MainPage < AbstractBasePage
       big_cookie.click
     end
   end
-
-  def change_settings
-
-  end
 end

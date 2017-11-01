@@ -15,9 +15,4 @@ class AbstractBasePage
     element.clear
     element.send_keys(text)
   end
-
-  def close_driver
-    @driver.quit
-  end
-
 end
